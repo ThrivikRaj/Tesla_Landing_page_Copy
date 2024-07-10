@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: auto;
+    min-height: auto;
+}
+
+.main img {
+    width: 100%;
+    min-width: 25%;
+    height: 700px;
+    min-height: 25%;
+}
+
+.product {
+    position: relative;
+    display: block; 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button-container button {
+    margin: 0 0.5rem;
+    width: 300px;
+    min-width: 100px;
+
+    height: 50px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    background-color: #fff;
+}
+
+.button-container button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.button-container button:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: auto;  
+    display: flex; 
+    position: absolute;
+}
+
+.header img {
+    width: 15%; 
+    height: auto;
+    position: absolute;
+    padding: 15px 15px;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.header nav {
+    display: flex;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header nav a {
+    padding-top: 15px;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header nav a:hover {
+    color: #000;
+}
+
+.product p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-weight:600;
+    font-size:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+}
+
+.product h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-weight:350;
+    font-size:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+}
+
+
+
+
